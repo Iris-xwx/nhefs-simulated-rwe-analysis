@@ -6,3 +6,7 @@
 *.csv text eol=lf
 *.html text eol=lf
 *.png binary
+
+# Exclude rendered reports from GitHub language statistics.
+report.html linguist-generated=true
+docs/** linguist-generated=true
