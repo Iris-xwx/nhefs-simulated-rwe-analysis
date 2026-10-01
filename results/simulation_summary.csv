@@ -1,0 +1,12 @@
+variable,original_missing,dirty_missing_or_unknown,newly_missing_or_unknown
+qsmk,0,4,4
+wt82_71,63,63,0
+sex,0,0,0
+race,0,0,0
+age,0,0,0
+education,0,68,68
+smokeintensity,0,0,0
+smokeyrs,0,0,0
+exercise,0,109,109
+active,0,0,0
+wt71,0,64,64

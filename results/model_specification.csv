@@ -1,0 +1,5 @@
+model,formula
+PS1,z ~ sex + race + age + education + smokeintensity + smokeyrs +      exercise + active + wt71
+PS2,"z ~ sex + race + education + exercise + active + splines::ns(age,      knots = c(36, 50), Boundary.knots = c(25, 74)) + splines::ns(smokeintensity,      knots = c(15, 20), Boundary.knots = c(1, 80)) + splines::ns(smokeyrs,      knots = c(17, 30), Boundary.knots = c(1, 64)) + splines::ns(wt71,      knots = c(62.48, 76.2), Boundary.knots = c(40.6, 151.73))"
+OR1,outcome ~ z + sex + race + age + education + smokeintensity +      smokeyrs + exercise + active + wt71
+OR2,"outcome ~ sex + race + education + exercise + active + splines::ns(age,      knots = c(36, 50), Boundary.knots = c(25, 74)) + splines::ns(smokeintensity,      knots = c(15, 20), Boundary.knots = c(1, 80)) + splines::ns(smokeyrs,      knots = c(17, 30), Boundary.knots = c(1, 64)) + splines::ns(wt71,      knots = c(62.48, 76.2), Boundary.knots = c(40.6, 151.73))"

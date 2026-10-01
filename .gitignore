@@ -1,0 +1,28 @@
+# R 用户状态、凭证、临时文件：不是项目交付。
+.RData
+.Rhistory
+.Ruserdata
+.Rproj.user/
+.Renviron
+.env
+.env.*
+Rplots.pdf
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 患者级教学数据本地重建，不随仓库再分发；保留出处说明。
+/data/*
+!/data/README.md
+
+# 二进制分析对象与临时测试结果；汇总 CSV/PNG 和 report.html 可以提交。
+/results/*.rds
+/results/_smoke/
+/.quarto/
+/report_files/
+/report_cache/
+/renv/library/
+/renv/staging/
+
+**/*.quarto_ipynb

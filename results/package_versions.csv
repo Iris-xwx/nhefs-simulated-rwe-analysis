@@ -1,0 +1,14 @@
+package,version,purpose
+causaldata,0.1.4,提供公开教学数据 nhefs；不把模拟 EHR/Registry 标签称为真实来源
+dplyr,1.2.1,数据整理、分组汇总、合并各次插补结果
+readr,2.1.5,读取当前项目的清洗 CSV；可选导出核心结果表
+ggplot2,4.0.3,缺失图、ECDF、PS 分布、Love plot 和效应森林图
+mice,3.19.0,PMM/Logistic/多分类 MICE、插补诊断、Rubin 合并
+tableone,0.13.2,Table 1、完整案例保留/删除人群比较、基线 SMD
+car,3.1.3,设计矩阵多重共线性诊断中的 VIF/GVIF
+splines,4.4.1,固定结点的自然样条（R 自带推荐包）
+sandwich,3.1.1,异方差稳健 HC0 与匹配子类聚类稳健方差
+MatchIt,4.7.2,完全匹配、最近邻、卡尺和遗传匹配的统一接口
+optmatch,0.10.8,MatchIt 完全匹配所需的优化后端
+Matching,4.10.15,MatchIt 遗传匹配所需的匹配与优化后端
+rgenoud,5.9.0.11,遗传匹配搜索协变量距离权重的优化后端

@@ -1,0 +1,7 @@
+body { font-family: "Microsoft YaHei", "Noto Sans CJK SC", system-ui, sans-serif; }
+main { max-width: 1080px; }
+.subtitle { color: #526474; }
+table { font-size: 0.88rem; }
+.cell-output-display { overflow-x: auto; }
+img { max-width: 100%; height: auto; }
+h1, h2, h3 { color: #24536a; }

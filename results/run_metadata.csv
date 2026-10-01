@@ -1,0 +1,27 @@
+setting,value
+m,20
+maxit,20
+seed,20260928
+representative,13
+run_matching,TRUE
+bootstrap,500
+bootstrap_seed,94113
+draw_plots,TRUE
+display_plots,FALSE
+export_results,TRUE
+rebuild,FALSE
+preparation_seed,20260926
+smd_limit,0.1
+caliper,0.2
+genetic_pop,50
+genetic_generations,10
+genetic_wait,4
+ps_trim,0.05;0.95
+truncation,0.01;0.99
+R_version,R version 4.4.1 (2024-06-14 ucrt)
+causaldata_version,0.1.4
+completed_at_UTC,2026-10-01 03:35:03 UTC
+mice_logged_events,0
+design_rank,15
+design_columns,15
+scaled_condition_number,4.20337555697999

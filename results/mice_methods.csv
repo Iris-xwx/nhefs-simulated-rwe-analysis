@@ -1,0 +1,14 @@
+variable,method,n_missing
+qsmk,,0
+outcome,,0
+source_system,,0
+sex,,0
+race,,0
+age,,0
+age_centered_sq,,0
+education,polyreg,68
+smokeintensity,pmm,7
+smokeyrs,pmm,6
+exercise,polyreg,107
+active,,0
+wt71,pmm,61

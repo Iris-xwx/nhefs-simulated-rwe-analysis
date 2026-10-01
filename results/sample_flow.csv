@@ -1,0 +1,10 @@
+stage,n
+Public source people,1629
+Dirty extract rows,1641
+Quarantined duplicate rows,12
+Clean unique people,1629
+Exposure known,1625
+Exposure and outcome observed,1562
+Analysis candidates,1562
+CC,1329
+MI,1562

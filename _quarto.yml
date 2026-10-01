@@ -1,0 +1,27 @@
+project:
+  type: default
+  execute-dir: project
+  render:
+    - report.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    embed-resources: true
+    code-fold: true
+    code-tools: true
+    css: report.css
+    fig-cap-location: bottom
+    html-math-method: plain
+
+execute:
+  echo: false
+  warning: false
+  message: false
+  error: false
+  cache: false
+
+lang: zh
